@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link href="/css/style.css" rel="stylesheet" />
+    <title>Document</title>
+  </head>
+  <body>
+    <section class="home-hero-section">
+      <h1>
+        <img class="main-logo" src="./images/Logo.png" alt="Les petits plats" />
+      </h1>
+      <div class="home-hero-paragraph">
+        <p>Cherchez parmi plus de 1500 recettes</p>
+        <p>du quotidien, simples et délicieuses</p>
+      </div>
+      <div class="search-bar">
+        <input
+          class="search-bar-input"
+          type="text"
+          name="search"
+          id="search"
+          data-placeholder="Rechercher une recette, un ingrédient, ..."
+        />
+        <div class="search-bar-button">
+          <img class="search-bar-img" src="./icons/search-white.svg" />
+        </div>
+        <span class="search-bar-value">
+          Rechercher une recette, un ingrédient, ...
+        </span>
+      </div>
+    </section>
+    <section class="main-section" id="main_section">
+      <div class="main-section-container">
+        <div class="filters-container">
+          <div class="select-filter-container" id="select_ingredients_filter_container">
+            <div class="select-filter-subcontainer">
+              <div class="select-filter" id="select_ingredients_filter">
+                <span class="filter-name">Ingrédients</span>
+                <span class="filter-btn">
+                  <img class="search-bar-img" src="./icons/chevron.svg" />
+                </span>
+              </div>
+              <input class="mini-search-bar" id="mini_search_bar_ingredient" />
+              <div class="content-filter" id="ingredients_content_filter">
+              </div>
+            </div>
+          </div>
+          <div class="select-filter-container" id="select_ustensils_filter_container">
+            <div class="select-filter-subcontainer">
+              <div class="select-filter" id="select_ustensils_filter">
+                <span class="filter-name">Ustensils</span>
+                <span class="filter-btn">
+                  <img class="search-bar-img" src="./icons/chevron.svg" />
+                </span>
+              </div>
+              <input class="mini-search-bar" id="mini_search_bar_ustensil" />
+              <div class="content-filter" id="ustensils_content_filter">
+              </div>
+            </div>
+          </div>
+          <div class="select-filter-container">
+            <div class="select-filter">
+              <span class="filter-name">Ingrédients</span>
+              <span class="filter-btn">
+                <img class="search-bar-img" src="./icons/chevron.svg" />
+              </span>
+            </div>
+          </div>
+        </div>
+
+        <div class="search-items-container" id="search_items_container"></div>
+
+        <div class="recipes-container" id="recipes_container">
+
+        </div>
+      </div>
+    </section>
+    <script src="scripts/pages/index.js" type="module"></script>
+  </body>
+</html>

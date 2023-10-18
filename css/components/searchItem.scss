@@ -1,0 +1,18 @@
+.search-item {
+  background-color: $yellow;
+  width: 203px;
+  height: 53px;
+  padding: 10px;
+  border-radius: 10px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  .search-item-name {
+    display: inline;
+  }
+
+  .search-item-close:hover {
+    cursor: pointer;
+  }
+}

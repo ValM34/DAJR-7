@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link href="/css/style.css" rel="stylesheet" />
+    <title>Document</title>
+  </head>
+  <body>
+    <h1>Components</h1>
+
+    <div class="recipe-card">
+      <div class="recipe-img-container">
+        <img src="" />
+        <div class="recipe-time">10 min</div>
+      </div>
+      <div class="recipe-card-content">
+        <div class="recipe-title">Titre de la recette</div>
+        <div class="recipe-description-container">
+          <b class="recipe-description-title">Recette</b>
+          <p class="recipe-description-text">
+            Mettre les glaçons à votre goût dans le blender, ajouter le lait, la
+            crème de coco, le jus de 2 citrons et le sucre. Mixer jusqu'à avoir
+            la consistence désirée.
+          </p>
+        </div>
+        <div class="recipe-ingredients">
+          <b class="recipe-ingredients-title">Ingrédients</b>
+          <div class="recipe-ingredients-grid">
+            <div>
+              <b>Lait de coco</b>
+              <p>400ml</p>
+            </div>
+            <div>
+              <b>Lait de coco</b>
+              <p>400ml</p>
+            </div>
+            <div>
+              <b>Lait de coco</b>
+              <p>400ml</p>
+            </div>
+            <div>
+              <b>Lait de coco</b>
+              <p>400ml</p>
+            </div>
+            <div>
+              <b>Lait de coco</b>
+              <p>400ml</p>
+            </div>
+            <div>
+              <b>Lait de coco</b>
+              <p>400ml</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="search-bar">
+      <input
+        class="search-bar-input"
+        type="text"
+        name="search"
+        id="search"
+        data-placeholder="Rechercher une recette, un ingrédient, ..."
+      />
+      <div class="search-bar-button">
+        <img class="search-bar-img" src="./icons/search-white.svg" />
+      </div>
+      <span class="search-bar-value">
+        Rechercher une recette, un ingrédient, ...
+      </span>
+    </div>
+
+    <div class="select-filter-container">
+      <div class="select-filter">
+        <span class="filter-name">Ingrédients</span>
+        <span class="filter-btn">
+          <img class="search-bar-img" src="./icons/chevron.svg" />
+        </span>
+      </div>
+    </div>
+
+    <div class="select-filter-container">
+      <div class="select-filter">
+        <span class="filter-name">Ingrédients</span>
+        <span class="filter-btn">
+          <img class="search-bar-img" src="./icons/chevron.svg" />
+        </span>
+      </div>
+      <div class="filter-input-container">
+        <input />
+        <img class="input-filter-search-img" src="./icons/search-grey.svg" />
+      </div>
+      <p class="ingredient-name">Jus de citron</p>
+      <p class="ingredient-name">Glaçons</p>
+      <p class="ingredient-name">Tomate</p>
+      <p class="ingredient-name">Poulet</p>
+    </div>
+
+    <div class="search-item">
+      <p class="search-item-name">Jus de citron</p>
+      <img class="search-item-close" src="./icons/cross.svg" />
+    </div>
+  </body>
+</html>
