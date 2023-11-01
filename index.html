@@ -22,13 +22,11 @@
           name="search"
           id="search"
           data-placeholder="Rechercher une recette, un ingrédient, ..."
+          placeholder="Rechercher une recette, un ingrédient, ..."
         />
         <div class="search-bar-button">
           <img class="search-bar-img" src="./icons/search-white.svg" />
         </div>
-        <span class="search-bar-value">
-          Rechercher une recette, un ingrédient, ...
-        </span>
       </div>
     </section>
     <section class="main-section" id="main_section">
@@ -47,6 +45,19 @@
               </div>
             </div>
           </div>
+          <div class="select-filter-container" id="select_appliances_filter_container">
+            <div class="select-filter-subcontainer">
+              <div class="select-filter" id="select_appliances_filter">
+                <span class="filter-name">Appareils</span>
+                <span class="filter-btn">
+                  <img class="search-bar-img" src="./icons/chevron.svg" />
+                </span>
+              </div>
+              <input class="mini-search-bar" id="mini_search_bar_appliance" />
+              <div class="content-filter" id="appliances_content_filter">
+              </div>
+            </div>
+          </div>
           <div class="select-filter-container" id="select_ustensils_filter_container">
             <div class="select-filter-subcontainer">
               <div class="select-filter" id="select_ustensils_filter">
@@ -60,15 +71,9 @@
               </div>
             </div>
           </div>
-          <div class="select-filter-container">
-            <div class="select-filter">
-              <span class="filter-name">Ingrédients</span>
-              <span class="filter-btn">
-                <img class="search-bar-img" src="./icons/chevron.svg" />
-              </span>
-            </div>
-          </div>
         </div>
+
+        <div id="recipes_number"></div>
 
         <div class="search-items-container" id="search_items_container"></div>
 
